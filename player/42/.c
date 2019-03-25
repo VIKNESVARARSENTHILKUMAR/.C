@@ -7,12 +7,15 @@ scanf("%d %d",&n,&q);
 	{
 	    scanf("%d",&a[i]);
 	}
+	
 	for(k=1;k<=q;k++)
 	{
 	    scanf("%d %d",&u[k],&v[k]);
+		
 	}
 	for(k=1;k<=q;k++)
 	{
+		
 	     int s=0;
 	    for(i=u[k];i<=v[k];i++)
 	    {
