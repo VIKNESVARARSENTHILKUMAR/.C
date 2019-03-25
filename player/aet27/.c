@@ -3,10 +3,14 @@
 int main(void) 
 {
 	int l,r,len,i;
+	
 	scanf("%d %d",&l,&r);
+	
 	if(l>r)
 	{
+		
 		len=l;
+		
 	}
 	else
 	{
